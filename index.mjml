@@ -1,0 +1,353 @@
+<mjml>
+  <mj-head>
+    <!-- Email Subject Preview -->
+    <mj-preview>
+      Limited-time offer on handcrafted ceramic mugs. Shop now before it's gone.
+    </mj-preview>
+
+    <!-- Breakpoint -->
+    <mj-breakpoint width="330px" />
+
+    <!-- Email Title -->
+    <mj-title>Obsidian Ceramic Mug – Special Offer</mj-title>
+
+    <!-- Google Font -->
+    <mj-font
+      name="Lora"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+    />
+
+    <!--
+    ================================================
+      COLOR SYSTEM
+    ================================================
+
+      LIGHT MODE
+      ----------
+      Email outer bg        → #f4f4f4
+      Section bg            → #ffffff
+      Card bg               → #f8f8f8
+      Border                → #e8e8e8
+      Heading               → #111111
+      Subheading            → #444444
+      Body text             → #666666
+      Muted                 → #888888
+      Footer text           → #999999
+
+      DARK MODE
+      ----------
+      Email outer bg        → #111111
+      Section bg            → #1a1a1a
+      Card bg               → #222222
+      Border                → #333333
+      Heading               → #f0f0f0
+      Subheading            → #cccccc
+      Body text             → #aaaaaa
+      Muted                 → #888888
+      Footer text           → #666666
+
+      ACCENT (both modes)
+      -------------------
+      Primary green         → #1a5c38
+      Amber                 → #c97d2e
+
+      DIVIDERS
+      --------
+      Light                 → #e8e8e8  (dark: #333333)
+      Strong                → #cccccc  (dark: #444444)
+    ================================================
+    -->
+    <!-- Global Attributes -->
+    <mj-attributes>
+      <!-- Entire Email -->
+      <mj-all
+        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        color="#444444"
+        line-height="1.5"
+      />
+
+      <!-- Body -->
+      <mj-body background-color="#f4f4f4" />
+
+      <!-- Sections -->
+      <mj-section padding="0" background-color="#ffffff" />
+
+      <!-- Columns -->
+      <mj-column padding="0" />
+
+      <!-- Text -->
+      <mj-text
+        padding="0"
+        font-size="16px"
+        line-height="24px"
+        color="#444444"
+      />
+
+      <!-- Buttons — primary default -->
+      <mj-button
+        border-radius="4px"
+        font-size="14px"
+        font-weight="600"
+        inner-padding="14px 28px"
+        padding="0"
+        background-color="#111111"
+        color="#ffffff"
+      />
+
+      <!-- Images -->
+      <mj-image padding="0" border="0" fluid-on-mobile="true" />
+
+      <!-- Divider -->
+      <mj-divider
+        border-style="solid"
+        border-color="#e8e8e8"
+        border-width="1px"
+        width="100%"
+        align="left"
+        padding="15px 0"
+      />
+    </mj-attributes>
+
+    <!-- STYLE BLOCK 1: Inlined regular styles -->
+    <mj-style inline="inline">
+      a {
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        border: 0;
+        outline: none;
+        text-decoration: none;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    </mj-style>
+
+    <!-- Raw meta tags -->
+    <mj-raw>
+      <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible"
+      content="IE=edge" /> <meta name="viewport" content="width=device-width,
+      initial-scale=1.0" /> <meta name="format-detection" content="telephone=no,
+      date=no, address=no, email=no, url=no" /> <meta
+      name="x-apple-disable-message-reformatting" /> <meta
+      http-equiv="List-Unsubscribe"
+      content="<mailto:unsubscribe@example.com?subject=unsubscribe>,
+      <https://example.com/unsubscribe>" />
+    </mj-raw>
+  </mj-head>
+
+  <mj-body width="600px" background-color="#f4f4f4">
+    <!-- ============================================================ -->
+    <!-- LOGO                                                          -->
+    <!-- ============================================================ -->
+    <mj-section background-color="#001223" css-class="dm-bg-section">
+      <mj-column vertical-align="top">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779181779/email-portfolio/re-engagement-email/images/logo_c0mxv7.png"
+          alt="Ultimate Technology Limited"
+          href="https://taqwaitagency.com"
+          padding="16px 0"
+          width="120px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Summary Title -->
+    <mj-section background-color="#001223" padding="20px 0px">
+      <mj-column>
+        <mj-text
+          font-weight="800"
+          align="center"
+          font-size="32px"
+          color="#f4f4f4"
+          text-transform="capitalize"
+        >
+          We miss you!
+        </mj-text>
+        <mj-text
+          color="#f5f5f5"
+          padding="15px 0px 0px"
+          font-size="14px"
+          align="center"
+        >
+          <span>It's been a while since we've</span> <br />
+          <span>seen your</span><br />
+          <span>Let's get you back on track.</span>
+        </mj-text>
+        <!-- MJML Large Button -->
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px 10px" background-color="#082540">
+      <!-- <mj-group width="380px"> -->
+      <mj-column padding="30px 0px" vertical-align="middle">
+        <mj-text font-size="22px" font-weight="bold" align="center">
+          <span style="color: #f4f4f4">Here's</span>
+          <span style="color: #ffad44">20% OFF</span>
+        </mj-text>
+        <mj-text
+          font-size="13px"
+          font-weight="500"
+          color="#f4f4f4"
+          line-height="1.4"
+          padding="10px 0px"
+          align="center"
+        >
+          <span> To restart your fitness</span> <br />
+          journey
+        </mj-text>
+        <mj-button
+          line-height="1.1"
+          font-size="13px"
+          font-weight="bold"
+          background-color="#f4f4f4"
+          color="#000000"
+          text-transform="uppercase"
+          href="https://taqwaitagency.com"
+          padding="10px 0px 0px"
+          inner-padding="10px 12px"
+          align="center"
+        >
+          Go to dashboard
+        </mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" padding="0px 10px 0px 0px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779181452/email-portfolio/re-engagement-email/images/man_pnwa8t.png"
+          alt="Taskly workspace"
+          width="250px"
+          align="left"
+          padding="0px"
+        />
+      </mj-column>
+      <!-- </mj-group> -->
+    </mj-section>
+
+    <!-- 3 COLUMN ICONS SECTION -->
+    <mj-section padding="30px 0px" background-color="#001223">
+      <mj-column padding="0 10px 20px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779181068/email-portfolio/re-engagement-email/icons/workout_xuiboe.png"
+          alt="Shopping for women"
+          width="40px"
+          padding="0px"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          font-size="13px"
+          font-weight="bold"
+          color="#f4f4f4"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="uppercase"
+        >
+          Workout
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="color: #a9a9a9; text-decoration: none; font-weight: 500"
+            >Plan
+          </span>
+        </mj-text>
+      </mj-column>
+
+      <mj-column padding="0px 10px 20px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779181068/email-portfolio/re-engagement-email/icons/plan_z4yvyn.png"
+          alt="Shopping for men"
+          width="40px"
+          padding="0"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#f4f4f4"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="uppercase"
+        >
+          Meal plan
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="color: #a9a9a9; text-decoration: none; font-weight: 500"
+            >Outfits</span
+          >
+        </mj-text>
+      </mj-column>
+      <mj-column padding="0 10px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1779181068/email-portfolio/re-engagement-email/icons/tracking_dukc8p.png"
+          alt="Shopping for men"
+          width="40px"
+          padding="0"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text
+          css-class="dm-text-h"
+          font-size="13px"
+          font-weight="bold"
+          color="#f4f4f4"
+          padding="10px 0 5px"
+          align="center"
+          text-transform="uppercase"
+          line-height="1.4"
+        >
+          Tracking
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          align="center"
+        >
+          <span
+            href="https://mjml.io/women"
+            style="color: #a9a9a9; text-decoration: none; font-weight: 500"
+            >Your progress</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- footer bottom text -->
+    <mj-section background-color="#082540">
+      <mj-column>
+        <mj-text
+          align="center"
+          padding="15px 0px"
+          line-height="1.4"
+          color="#f4f4f4"
+          font-size="14px"
+        >
+          <span>We are here whenever</span><br />
+          <span>you're ready!</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
